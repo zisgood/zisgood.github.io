@@ -6,12 +6,12 @@ cd dist # 进入生成的文件夹
 
 # deploy to github
 # echo 'blog.xugaoyi.com' > CNAME #创建一个自定义域名的CNAME文件（如果你没有自定义域名可去掉这个命令）
-if [ -z "$ACCESS_TOKEN" ]; then
+if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:zisgood/zisgood.github.io.git
 else
   msg='来自github action的自动部署'
-  githubUrl=https://zisgood:${ACCESS_TOKEN}@github.com/zisgood/zisgood.github.io.git
+  githubUrl=https://zisgood:${GITHUB_TOKEN}@github.com/zisgood/zisgood.github.io.git
   git config --global user.name "zisgood"
   git config --global user.email "zisgood@sina.com"
 fi
