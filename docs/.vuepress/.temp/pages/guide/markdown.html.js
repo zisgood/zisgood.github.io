@@ -137,14 +137,13 @@ export const data = {
           "title": "流程图",
           "slug": "流程图",
           "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "Mermaid",
-      "slug": "mermaid",
-      "children": [
+        },
+        {
+          "level": 3,
+          "title": "Mermaid",
+          "slug": "mermaid",
+          "children": []
+        },
         {
           "level": 3,
           "title": "Tex 语法",
@@ -167,17 +166,17 @@ export const data = {
     }
   ],
   "git": {
-    "createdTime": 1645179666000,
-    "updatedTime": 1647092983000,
+    "createdTime": 1648821184000,
+    "updatedTime": 1648821184000,
     "contributors": [
       {
-        "name": "Mr.Hope",
-        "email": "zhangbowang1998@gmail.com",
-        "commits": 3
+        "name": "zisgood",
+        "email": "zisgood@gitee.com",
+        "commits": 2
       },
       {
-        "name": "Mr.Hope",
-        "email": "mister-hope@outlook.com",
+        "name": "zisgood",
+        "email": "33769446+zisgood@users.noreply.github.com",
         "commits": 1
       }
     ]
@@ -187,17 +186,4 @@ export const data = {
     "words": 875
   },
   "filePathRelative": "guide/markdown.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

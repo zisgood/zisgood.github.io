@@ -9,7 +9,7 @@ export const data = {
     "icon": "home",
     "title": "博客主页",
     "heroImage": "/logo.svg",
-    "heroText": "你博客的名称",
+    "heroText": "技术博客",
     "heroFullScreen": true,
     "tagline": "你可以在这里放置你的口号与标语",
     "projects": [
@@ -93,13 +93,18 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": 1645179666000,
-    "updatedTime": 1646881792000,
+    "createdTime": 1648821184000,
+    "updatedTime": 1648821184000,
     "contributors": [
       {
-        "name": "Mr.Hope",
-        "email": "zhangbowang1998@gmail.com",
-        "commits": 4
+        "name": "zisgood",
+        "email": "zisgood@gitee.com",
+        "commits": 2
+      },
+      {
+        "name": "zisgood",
+        "email": "33769446+zisgood@users.noreply.github.com",
+        "commits": 1
       }
     ]
   },
@@ -108,17 +113,4 @@ export const data = {
     "words": 50
   },
   "filePathRelative": "README.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

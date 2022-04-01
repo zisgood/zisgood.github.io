@@ -37,7 +37,7 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$K.7XmzGnw5zrBaGyTeQJUe63HmrnYNh2SRXZviTR8IdXOsw/NVg/6"
+        "$2a$10$VxQ7xmDdzaFdkBCKvk5yMeQK61VmpDsxV4aZP1CJuUfAJa2dMhi6."
       ]
     }
   },
@@ -52,9 +52,43 @@ export const themeData = {
     "purple": "#8e44ad"
   },
   "fullscreen": true,
-  "hostname": "https://vuepress-theme-hope-v2-demo.mrhope.site",
   "locales": {
     "/": {
+      "blog": {
+        "description": "一个前端开发者",
+        "intro": "/intro.html",
+        "medias": {
+          "Baidu": "https://example.com",
+          "Bitbucket": "https://example.com",
+          "Dingding": "https://example.com",
+          "Discord": "https://example.com",
+          "Dribbble": "https://example.com",
+          "Email": "https://example.com",
+          "Evernote": "https://example.com",
+          "Facebook": "https://example.com",
+          "Flipboard": "https://example.com",
+          "Gitee": "https://example.com",
+          "GitHub": "https://example.com",
+          "Gitlab": "https://example.com",
+          "Gmail": "https://example.com",
+          "Instagram": "https://example.com",
+          "Lines": "https://example.com",
+          "Linkedin": "https://example.com",
+          "Pinterest": "https://example.com",
+          "Pocket": "https://example.com",
+          "QQ": "https://example.com",
+          "Qzone": "https://example.com",
+          "Reddit": "https://example.com",
+          "Rss": "https://example.com",
+          "Steam": "https://example.com",
+          "Twitter": "https://example.com",
+          "Wechat": "https://example.com",
+          "Weibo": "https://example.com",
+          "Whatsapp": "https://example.com",
+          "Youtube": "https://example.com",
+          "Zhihu": "https://example.com"
+        }
+      },
       "repoDisplay": true,
       "navbarIcon": true,
       "navbarAutoHide": "mobile",
@@ -119,13 +153,13 @@ export const themeData = {
         }
       ],
       "sidebarIcon": true,
-      "headingDepth": 2,
+      "headerDepth": 2,
       "author": {
         "name": "Mr.Hope",
         "url": "https://mrhope.site"
       },
       "logo": "/logo.svg",
-      "repo": "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
+      "repo": "vuepress-theme-hope/vuepress-theme-hope",
       "docsDir": "demo/src",
       "navbar": [
         "/",
@@ -207,41 +241,6 @@ export const themeData = {
         "Tag",
         "ReadingTime"
       ],
-      "blog": {
-        "description": "一个前端开发者",
-        "intro": "/intro.html",
-        "medias": {
-          "Baidu": "https://example.com",
-          "Bitbucket": "https://example.com",
-          "Dingding": "https://example.com",
-          "Discord": "https://example.com",
-          "Dribbble": "https://example.com",
-          "Email": "https://example.com",
-          "Evernote": "https://example.com",
-          "Facebook": "https://example.com",
-          "Flipboard": "https://example.com",
-          "Gitee": "https://example.com",
-          "GitHub": "https://example.com",
-          "Gitlab": "https://example.com",
-          "Gmail": "https://example.com",
-          "Instagram": "https://example.com",
-          "Lines": "https://example.com",
-          "Linkedin": "https://example.com",
-          "Pinterest": "https://example.com",
-          "Pocket": "https://example.com",
-          "QQ": "https://example.com",
-          "Qzone": "https://example.com",
-          "Reddit": "https://example.com",
-          "Rss": "https://example.com",
-          "Steam": "https://example.com",
-          "Twitter": "https://example.com",
-          "Wechat": "https://example.com",
-          "Weibo": "https://example.com",
-          "Whatsapp": "https://example.com",
-          "Youtube": "https://example.com",
-          "Zhihu": "https://example.com"
-        }
-      },
       "lang": "zh-CN",
       "navbarLocales": {
         "langName": "简体中文",
@@ -289,17 +288,4 @@ export const themeData = {
       }
     }
   }
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
 }

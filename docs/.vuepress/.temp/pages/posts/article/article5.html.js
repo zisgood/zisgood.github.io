@@ -91,12 +91,17 @@ export const data = {
     }
   ],
   "git": {
-    "createdTime": 1645179666000,
-    "updatedTime": 1645179666000,
+    "createdTime": 1648821184000,
+    "updatedTime": 1648821184000,
     "contributors": [
       {
-        "name": "Mr.Hope",
-        "email": "zhangbowang1998@gmail.com",
+        "name": "zisgood",
+        "email": "zisgood@gitee.com",
+        "commits": 2
+      },
+      {
+        "name": "zisgood",
+        "email": "33769446+zisgood@users.noreply.github.com",
         "commits": 1
       }
     ]
@@ -106,17 +111,4 @@ export const data = {
     "words": 19
   },
   "filePathRelative": "posts/article/article5.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

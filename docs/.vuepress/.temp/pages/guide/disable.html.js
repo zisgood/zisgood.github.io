@@ -74,17 +74,17 @@ export const data = {
   "excerpt": "<p>你可以通过设置页面的 Frontmatter，在页面禁用一些功能。</p>\n",
   "headers": [],
   "git": {
-    "createdTime": 1645179666000,
-    "updatedTime": 1646994488000,
+    "createdTime": 1648821184000,
+    "updatedTime": 1648821184000,
     "contributors": [
       {
-        "name": "Mr.Hope",
-        "email": "zhangbowang1998@gmail.com",
+        "name": "zisgood",
+        "email": "zisgood@gitee.com",
         "commits": 2
       },
       {
-        "name": "Mr.Hope",
-        "email": "mister-hope@outlook.com",
+        "name": "zisgood",
+        "email": "33769446+zisgood@users.noreply.github.com",
         "commits": 1
       }
     ]
@@ -94,17 +94,4 @@ export const data = {
     "words": 74
   },
   "filePathRelative": "guide/disable.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

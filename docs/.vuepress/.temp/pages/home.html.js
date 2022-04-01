@@ -169,13 +169,18 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "createdTime": 1645179666000,
-    "updatedTime": 1647521649000,
+    "createdTime": 1648821184000,
+    "updatedTime": 1648821184000,
     "contributors": [
       {
-        "name": "Mr.Hope",
-        "email": "zhangbowang1998@gmail.com",
-        "commits": 6
+        "name": "zisgood",
+        "email": "zisgood@gitee.com",
+        "commits": 3
+      },
+      {
+        "name": "zisgood",
+        "email": "33769446+zisgood@users.noreply.github.com",
+        "commits": 2
       }
     ]
   },
@@ -184,17 +189,4 @@ export const data = {
     "words": 68
   },
   "filePathRelative": "home.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }
