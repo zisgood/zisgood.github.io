@@ -1,30 +1,27 @@
-# name 可以自定义
 name: CI
-# 指定触发workflow的条件
-# 下面的意思就是在监听到main分支push操作的时候运行
-on:
-  push:
-    branches: [ master ]
 
-# jobs 表示要执行的一项或者多项任务
-jobs:
-  # 任务名，可自定义
-  build-and-deploy:
-    # runs-on字段指定运行所需要的虚拟机环境。它是必填字段。目前可用的虚拟机如下。
-    runs-on: ubuntu-latest
-    # steps表示执行步骤
-    steps:
-    # 检出代码，这里用了 actions/checkout@master 库来完成
-    - name: Checkout
-      uses: actions/checkout@master
-   # 这里展示了如何执行多条命令
-    - name: Install and Build
-      run: |
-        npm install
-        npm run build
-    # 这里引用了别人写好的发布库，具体参数信息可以查阅上面的链接
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@4.0.0
-      with: 
-        branch: gh-pages
-        folder: dist
+# 在master分支发生push事件时触发。
+on: 
+  push:
+    branches:
+      - master
+jobs: # 工作流
+  build:
+    runs-on: ubuntu-latest #运行在虚拟机环境ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x]
+
+    steps: 
+      - name: Checkout # 步骤1
+        uses: actions/checkout@master # 使用的动作。格式：userName/repoName。作用：检出仓库，获取源码。 官方actions库：https://github.com/actions
+      - name: Use Node.js ${{ matrix.node-version }} # 步骤2
+        uses: actions/setup-node@master # 作用：安装nodejs
+        with:
+          node-version: ${{ matrix.node-version }} # 版本
+      - name: run deploy.sh # 步骤3 （同时部署到github和coding）
+        env: # 设置环境变量
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
+        run: npm install && npm run deploy # 执行的命令  
+        # package.json 中添加 "deploy": "bash deploy.sh"
