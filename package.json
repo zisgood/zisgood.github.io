@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "2.0.0",
+  "description": "technology blog",
+  "license": "MIT",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs",
+	"deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.37",
+    "vuepress-theme-hope": "^2.0.0-beta.30"
+  }
+}
