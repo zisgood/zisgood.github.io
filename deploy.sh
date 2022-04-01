@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 # 确保脚本抛出遇到的错误
 set -e
-npm run build # 生成静态文件
+npm run docs:build # 生成静态文件
 cd dist # 进入生成的文件夹
 
 # deploy to github
@@ -11,7 +11,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:zisgood/zisgood.github.io.git
 else
   msg='来自github action的自动部署'
-  githubUrl=https://zisgood:${GITHUB_TOKEN}@github.com/zisgood/zisgood.github.io.git
+  githubUrl=https://zisgood:${GITHUB_TOKEN}@github.com/xugaoyi/blog.git
   git config --global user.name "zisgood"
   git config --global user.email "zisgood@sina.com"
 fi
