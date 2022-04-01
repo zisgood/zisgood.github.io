@@ -2,7 +2,7 @@ const { defineHopeConfig } = require("vuepress-theme-hope");
 import themeConfig from "./themeConfig";
 
 module.exports = defineHopeConfig({
-  base: "/",
+  base: "/docs",
   port: "8080",
   title: "JavaGuide",
   description: "Java学习&&面试指南",
