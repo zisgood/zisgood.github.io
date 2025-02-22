@@ -44,6 +44,7 @@ export default hopeTheme([
       "article12",
     ],
   },
+
   {
     text: "主题文档",
     icon: "note",
