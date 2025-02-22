@@ -1,4 +1,4 @@
-import { defineHopeConfig } from "vuepress-theme-hope";
+import defineHopeConfig from "vuepress-theme-hope";
 import themeConfig from "./themeConfig";
 
 export default defineHopeConfig({

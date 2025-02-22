@@ -1,4 +1,4 @@
-import { defineThemeConfig } from "vuepress-theme-hope";
+import defineThemeConfig from "vuepress-theme-hope";
 import navbar from "./navbar";
 import sidebar from "./sidebar";
 
