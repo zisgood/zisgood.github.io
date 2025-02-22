@@ -1,53 +1,45 @@
-import { hopeTheme } from "vuepress-theme-hope";
+import { navbar } from "vuepress-theme-hope";
 
-export default hopeTheme([
-//   "/",
-//   "/home",
-  { text: "技术指南", icon: "creative", link: "/home.md" },
-/*   {
-    text: "博文",
-    icon: "edit",
-    prefix: "/posts/",
+export default navbar([
+  { text: "面试指南", icon: "java", link: "/home.md" },
+  { text: "开源项目", icon: "github", link: "/open-source-project/" },
+  { text: "技术书籍", icon: "book", link: "/books/" },
+  {
+    text: "程序人生",
+    icon: "article",
+    link: "/high-quality-technical-articles/",
+  },
+  {
+    text: "知识星球",
+    icon: "planet",
     children: [
       {
-        text: "文章 1-4",
-        icon: "edit",
-        prefix: "article/",
-        children: [
-          { text: "文章 1", icon: "edit", link: "article1" },
-          { text: "文章 2", icon: "edit", link: "article2" },
-          "article3",
-          "article4",
-        ],
+        text: "星球介绍",
+        icon: "about",
+        link: "/about-the-author/zhishixingqiu-two-years.md",
       },
       {
-        text: "文章 5-12",
-        icon: "edit",
-        children: [
-          {
-            text: "文章 5",
-            icon: "edit",
-            link: "article/article5",
-          },
-          {
-            text: "文章 6",
-            icon: "edit",
-            link: "article/article6",
-          },
-          "article/article7",
-          "article/article8",
-        ],
+        text: "星球专属优质专栏",
+        icon: "about",
+        link: "/zhuanlan/",
       },
-      { text: "文章 9", icon: "edit", link: "article9" },
-      { text: "文章 10", icon: "edit", link: "article10" },
-      "article11",
-      "article12",
+      {
+        text: "星球优质主题汇总",
+        icon: "star",
+        link: "https://www.yuque.com/snailclimb/rpkqw1/ncxpnfmlng08wlf1",
+      },
     ],
   },
-
   {
-    text: "主题文档",
-    icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/zh/",
-  }, */
+    text: "网站相关",
+    icon: "about",
+    children: [
+      { text: "关于作者", icon: "zuozhe", link: "/about-the-author/" },
+      {
+        text: "更新历史",
+        icon: "history",
+        link: "/timeline/",
+      },
+    ],
+  },
 ]);
