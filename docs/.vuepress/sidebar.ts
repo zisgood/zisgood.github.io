@@ -1,6 +1,6 @@
-import { defineSidebarConfig } from "vuepress-theme-hope";
+import { hopeTheme } from "vuepress-theme-hope";
 
-export default defineSidebarConfig(
+export default hopeTheme(
   {
     // 必须放在最后面
     "/": [
