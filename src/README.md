@@ -8,7 +8,7 @@ bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: 神马笔记
-tagline: 暂时没有描述
+tagline: Talk is cheap. Show me the code
 actions:
   - text: 使用指南
     icon: lightbulb
