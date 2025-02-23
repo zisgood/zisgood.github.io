@@ -1,1 +1,0 @@
-import{_ as e,c,o}from"./app.2fa2f6d2.js";const r={};function t(_,n){return o(),c("p",null,"\u6280\u672F\u8D44\u6599\u6574\u7406")}var l=e(r,[["render",t],["__file","home.html.vue"]]);export{l as default};
