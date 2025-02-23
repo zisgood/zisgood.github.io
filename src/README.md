@@ -10,13 +10,10 @@ bgImageStyle:
 heroText: 神马笔记
 tagline: Talk is cheap. Show me the code
 actions:
-  - text: 使用指南
-    icon: lightbulb
-    link: https://pingfangx.github.io/java-tutorials/
-    type: primary
-
   - text: 文档
+    icon: lightbulb
     link: ./guide/
+    type: primary
 
 highlights:
   - header: 易于安装

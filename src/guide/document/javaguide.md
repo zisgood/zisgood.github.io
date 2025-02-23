@@ -3,9 +3,9 @@ title: javaguide
 icon: object-group
 order: 2
 category:
-  - 指南
+  - java面试
 tag:
-  - 布局
+  - java面试
 ---
 
 - [javaguide文档](https://javaguide.cn/)

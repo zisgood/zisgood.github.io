@@ -1,16 +1,17 @@
 ---
 title: 官方文档
 icon: object-group
-order: 2
+order: 1
 category:
-  - 指南
+  - 官方文档
 tag:
-  - 布局
+  - 官方文档
 ---
 
 ## Java:
 - [Java官方教程-英文版](https://docs.oracle.com/javase/tutorial/)
 - [Java官方教程-中文版](https://pingfangx.github.io/java-tutorials/)
+
 
 ## Spring:
 - [Spring官方文档全家桶-中文版](https://springdoc.cn/docs/)

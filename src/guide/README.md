@@ -5,12 +5,10 @@ icon: lightbulb
 
 ## 功能亮点
 
-### Bar
+### 官方文档
 
-- [baz](bar/baz.md)
-- ...
+- [官方文档](document/document.md)
 
-### Foo
+### javaguide
 
-- [ray](foo/ray.md)
-- ...
+- [javaguide](document/javaguide.md)
