@@ -2,25 +2,41 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
-    "",
-    "portfolio",
     {
-      text: "案例",
+      text: "技术文档",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
+      prefix: "technical/",
+      children: [
+          {
+          text: "计算机基础",
+          icon: "icon-park:computer",
+          prefix: "computer/",
+          collapsible: true,
+          expanded: true,
+          children: [
+                    {
+                              text: "数据结构",
+                              icon: "fluent-color:data-line-20",
+                              prefix: "data-structure/",
+                              collapsible: true,
+                              expanded: true,
+                              children: [
+                                         "data-structure",
+                                        ]
+                              },
+                    ]
+          },
+                 "build_web",
+                 ],
     },
     {
-      text: "文档",
+      text: "官方文档",
       icon: "book",
-      prefix: "guide/",
-      children: "structure",
-    },
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
+      prefix: "official/",
+      children: [
+                "document",
+                "javaguide",
+                ],
     },
   ],
 });

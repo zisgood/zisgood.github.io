@@ -1,6 +1,6 @@
 ---
 title: javaguide
-icon: object-group
+icon: material-symbols:book-2
 order: 2
 category:
   - java面试
