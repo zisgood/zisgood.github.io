@@ -1,7 +1,7 @@
 ---
 title: 搭建自己的github博客
 icon: mdi:web-box
-order: 1
+order: 2
 category:
   - 个人博客
 tag:
@@ -17,6 +17,8 @@ tag:
    ● VuePress：基于Markdown的前端网站生成器，awesome，简单易用，不需要掌握太多前端技术也可以快速搭建
    ● https://theme-hope.vuejs.press/zh/get-started/：一个具有强大功能的 vuepress 主题，封装好了很多功能，即使前端不是很熟悉，也可以快速上手
    ● markdown语法：这个网上教程很多，语法也很简单，本文也是使用markdown进行撰写的，这个必须要了解
+## 启动命令
+   ● pnpm docs:dev
 ## 视频教程
    由于语雀上传视频需要会员，所以视频放到有道云笔记里了，可以去有道云笔记搜索文章《搭建自己的github博客》
 ## 参考文章

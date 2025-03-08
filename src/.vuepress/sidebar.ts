@@ -30,12 +30,12 @@ export default sidebar({
                  ],
     },
     {
-      text: "官方文档",
+      text: "官方文档|个人博客",
       icon: "book",
       prefix: "official/",
       children: [
                 "document",
-                "javaguide",
+                "blog",
                 ],
     },
   ],
