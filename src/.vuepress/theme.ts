@@ -30,9 +30,9 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
+      "/technical/": {
+        hint: "Password",
+        password: "4656",
       },
     },
   },
@@ -78,7 +78,9 @@ export default hopeTheme({
     tabs: true,
     tasklist: true,
     vPre: true,
-
+    highlighter: {
+        type: "shiki",
+    },
     // 取消注释它们如果你需要 TeX 支持
     // markdownMath: {
     //   // 启用前安装 katex
@@ -122,10 +124,10 @@ export default hopeTheme({
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "zisgood/zisgood.github.io",
+      repoId: "MDEwOlJlcG9zaXRvcnkzNjk1NzkxMzI=",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOFgdUfM4CntoE",
     },
 
     components: {
