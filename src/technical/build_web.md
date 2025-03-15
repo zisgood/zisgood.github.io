@@ -27,6 +27,9 @@ pnpm docs:dev
 ## 视频教程
 由于语雀上传视频需要会员，所以视频放到有道云笔记里了，可以去有道云笔记搜索文章《**搭建自己的github博客**》
 
+## 其他
+github连不上的问题，可以通过下载Watt Toolkit工具对很多平台加速，其他包括Steam、github等
+
 ## 参考文章
 - [「奇怪的教程」年轻人的第一个博客搭建指南](https://segmentfault.com/a/1190000038885122)
 - [GitHub Actions 的工作流语法](https://docs.github.com/zh/actions/writing-workflows/workflow-syntax-for-github-actions)
