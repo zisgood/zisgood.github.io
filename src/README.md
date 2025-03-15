@@ -7,7 +7,6 @@ heroImage: logo.svg
 heroText: 神马笔记
 heroFullScreen: true
 tagline: Talk is cheap. Show me the code
-bgImage: bg.png
 projects:
   - icon: folder-open
     name: 项目名称
