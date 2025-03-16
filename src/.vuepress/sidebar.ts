@@ -26,6 +26,16 @@ export default sidebar({
                   },
               ]
           },
+          {
+              text: "错误处理",
+              icon: "icon-park:error",
+              prefix: "error/",
+              collapsible: true,
+              expanded: true,
+              children: [
+                  "git",
+              ]
+          },
                  "build_web",
       ],
     },
