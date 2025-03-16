@@ -1,6 +1,6 @@
 ---
 title: 网页链接
-icon: mdi:web-box
+icon: material-symbols:link
 order: 3
 category:
   - 网页链接
@@ -10,6 +10,23 @@ tag:
 
 ### 书签栏
 - [百度一下，你就知道](https://www.baidu.com/)
+
+## 计算机科学与技术
+### 计算机组成原理
+- [计算机组成及原理的书籍有哪些推荐？ - 知乎](https://www.zhihu.com/question/48076244/answer/2027016011)
+- [王道计算机考研 计算机组成原理](https://www.bilibili.com/video/BV1ps4y1d73V/?spm_id_from=333.1387.collection.video_card.click&vd_source=f18bec443cbf5c704e26577d5399183b)
+### 数据结构和算法
+- [王道计算机考研 数据结构](https://www.bilibili.com/video/BV1b7411N798/?spm_id_from=333.1387.collection.video_card.click&vd_source=f18bec443cbf5c704e26577d5399183b)
+- [十大经典排序算法（动图演示） - 一像素 - 博客园](https://www.cnblogs.com/onepixel/p/7674659.html)
+- [平衡搜索树](https://algs4.cs.princeton.edu/33balanced/)
+- [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+- [题库 - 力扣 (LeetCode) 全球极客挚爱的技术成长平台](https://leetcode-cn.com/problemset/all/)
+- [visualising data structures and algorithms through animation - VisuAlgo](https://visualgo.net/en)
+### 操作系统
+- [王道计算机考研 操作系统](https://www.bilibili.com/video/BV1YE411D7nH/?spm_id_from=333.1387.favlist.content.click&vd_source=f18bec443cbf5c704e26577d5399183b)
+### 计算机网络
+- [王道计算机考研 计算机网络](https://www.bilibili.com/video/BV19E411D78Q/?spm_id_from=333.1387.collection.video_card.click&vd_source=f18bec443cbf5c704e26577d5399183b)
+
 ## 技术
 ### 技术网站
 - [牛客网-找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网](https://www.nowcoder.com/)
@@ -48,6 +65,7 @@ tag:
 - [Introduction | Spring-Boot-Reference-Guide](http://doc.yonyoucloud.com/doc/Spring-Boot-Reference-Guide/index.html)
 - [这里整理了基于java平台的常用资源 | 框架](https://www.lmlphp.com/user/57793/article/item/597152/)
 - [spring 中文文档 - spring 中文网](https://springdoc.cn/docs/)
+- [jsoup-html解析框架](https://jsoup.org/cookbook/)
 ### 网络编程
 - [crossoverJie/cim: 📲cim(cross IM) 适用于开发者的分布式即时通讯系统](https://github.com/crossoverJie/cim)
 - [4.1 tio-study](https://www.tiocloud.com/doc/tio/124)
@@ -84,36 +102,21 @@ tag:
 ### 设计模式
 - [Home - Java Design Patterns](https://java-design-patterns.com/)
 - [常用设计模式有哪些？](https://refactoringguru.cn/design-patterns)
-### 数据结构和算法
-- [十大经典排序算法（动图演示） - 一像素 - 博客园](https://www.cnblogs.com/onepixel/p/7674659.html)
-- [平衡搜索树](https://algs4.cs.princeton.edu/33balanced/)
-- [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-- [题库 - 力扣 (LeetCode) 全球极客挚爱的技术成长平台](https://leetcode-cn.com/problemset/all/)
-- [visualising data structures and algorithms through animation - VisuAlgo](https://visualgo.net/en)
-## 计算机科学与技术
-### 计算机组成原理
-- [计算机组成及原理的书籍有哪些推荐？ - 知乎](https://www.zhihu.com/question/48076244/answer/2027016011)
-### 技术视频
-- [JVM性能调优面试剖析_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Hb4y1Z75B?from=search&seid=4140357671033212411)
-- [坦克大战_Java编程1小时搞定坦克大战游戏项目_java坦克大战项目全集_Java坦克大战小游戏2021开发教程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1b3411z7SZ?p=8)
-- [【尚硅谷】ElasticSearch教程入门到精通（基于ELK技术栈elasticsearch 7.8.x版本）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1hh411D7sb?from=search&seid=94281421502932849&spm_id_from=333.337.0.0)
-- [【Token】02.使用Token获取登录用户_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1kE411J7TR/?spm_id_from=autoNext)
-- [[双语字幕] Stanford CS107 Programming Paradigms 编程范式_哔哩哔哩_bilibili](https://www.bilibili.com/video/av9789206/)
-- [清华大学c++自学教程全集_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1UJ411u7Jt?from=search&seid=7710018768765434492&spm_id_from=333.337.0.0)
-- [黑马程序员匠心之作|C++教程从0到1入门编程,学习编程不再难_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1et411b73Z?p=1)
-- [一节更比八节强，b站最深入nacos源码分析_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1PC4y1a7zJ?from=search&seid=16393647028129401344&spm_id_from=333.337.0.0)
-- [极客时间-轻松学习，高效学习-极客邦](https://time.geekbang.org/?utm_source=related_read&utm_medium=article&utm_term=related_read)
-- [尚硅谷_JNI_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1MC4y1s7Ee?spm_id_from=333.337.search-card.all.click)
 ### 在线工具
 - [Try Redis](https://try.redis.io/)
-### 教育
+
+## 国家教育资源
+### 义务教育
 - [国家中小学智慧教育平台](https://basic.smartedu.cn/)
 - [人民教育出版社官方网站－培根铸魂　启智增慧](https://www.pep.com.cn/)
+### 国家图书馆
 - [中国国家图书馆 · 中国国家数字图书馆 · 国家典籍博物馆](https://www.nlc.cn/web/index.shtml)
+
 ## 工作
 ### 金蝶软件
 - [金蝶云苍穹开发者门户](https://dev.kingdee.com/index/home)
 - [金蝶云社区|财务金融企业信息化|IT精英人脉圈子-金蝶云社区官网](https://vip.kingdee.com/school/learnPath?productLineId=5&opc=172000781353169664&fl=524&so=desc)
+
 ## 其他
 ### 看剧
 - [美剧天堂 - 海量好看的美剧在线观看、最新美剧下载！](http://www.meijutt.org/)

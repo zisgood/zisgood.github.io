@@ -1,6 +1,6 @@
 ---
 title: 搭建自己的github博客
-icon: mdi:web-box
+icon: mdi:blog
 order: 2
 category:
   - 个人博客

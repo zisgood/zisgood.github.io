@@ -13,7 +13,7 @@ tag:
 - [jenkov.com](https://jenkov.com/)
 - [baeldung](https://www.baeldung.com/)
 - [万字长文带你窥探Spring中所有的扩展点](https://www.cnblogs.com/seven97-top/p/18402945)
-- [毕弦博客](http://www.blogjava.net/BlueDavy/)
+- [阿里毕玄博客](http://www.blogjava.net/BlueDavy/)
   - [服务框架的要素的blog](http://www.blogjava.net/BlueDavy/archive/2008/01/02/172259.html)
   - [基于OSGi实现服务框架的分析](https://link.zhihu.com/?target=http%3A//www.blogjava.net/BlueDavy/archive/2008/01/09/173773.html)
   - [基于OSGi实现分布式服务框架历程(一)](https://link.zhihu.com/?target=http%3A//www.blogjava.net/BlueDavy/archive/2008/01/14/175054.html)
