@@ -36,6 +36,7 @@ export default sidebar({
       children: [
                 "document",
                 "blog",
+                "links",
                 ],
     },
   ],
