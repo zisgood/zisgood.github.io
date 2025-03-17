@@ -78,6 +78,7 @@ tag:
 - [mall学习教程](http://www.macrozheng.com/#/README)
 - [互联网 Java 秒杀系统设计与架构](https://github.com/qiurunze123/miaosha)
 - [编程与面试，彻底掌握第三方登录最常用的OAuth2.0视频教程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Kt4y1i7nk?from=search&seid=9790813331483764818&spm_id_from=333.337.0.0)
+- [手写RPC框架之泛化调用](https://www.cnblogs.com/2YSP/p/17508631.html)
 ### K8S
 - [CentOS报错：Could not retrieve mirrorlist http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=os&infra=stock32 error was 14: curl#6 - "Could not resolve host: mirrorlist.centos.org; Unknown error" - Mr.毛小毛 - 博客园](https://www.cnblogs.com/maowenqiang/articles/7728685.html)
 - [k8s搭建（详细演示完整一篇）-CSDN博客](https://blog.csdn.net/mo_sss/article/details/135220332)
