@@ -50,7 +50,6 @@ tag:
 - [Java 基础高频面试题（2021年最新版） - 知乎](https://zhuanlan.zhihu.com/p/363947638)
 - [首页 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/)
 ### JVM
-- [JVM源码下载](https://cloud.tencent.com/developer/article/2014832)
 - [JVM 1.3 JVM 启动流程_猫君之上的博客-CSDN博客](https://blog.csdn.net/qq_33713328/article/details/89978453)
 - [Hotspot和Linux内核_菜鸟进阶之路-CSDN博客](https://blog.csdn.net/qq_31865983/category_9216603_3.html)
 - [https://www.iteye.com/blog/user/rednaxelafx](https://www.iteye.com/blog/user/rednaxelafx)

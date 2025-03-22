@@ -36,6 +36,16 @@ export default sidebar({
                   "git",
               ]
           },
+          {
+              text: "JVM",
+              icon: "icon-park:jvm",
+              prefix: "jvm/",
+              collapsible: true,
+              expanded: true,
+              children: [
+                  "openjdk_download",
+              ]
+          },
                  "build_web",
       ],
     },
