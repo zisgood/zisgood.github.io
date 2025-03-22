@@ -50,6 +50,7 @@ tag:
 - [Java 基础高频面试题（2021年最新版） - 知乎](https://zhuanlan.zhihu.com/p/363947638)
 - [首页 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/)
 ### JVM
+- [JVM源码下载](https://cloud.tencent.com/developer/article/2014832)
 - [JVM 1.3 JVM 启动流程_猫君之上的博客-CSDN博客](https://blog.csdn.net/qq_33713328/article/details/89978453)
 - [Hotspot和Linux内核_菜鸟进阶之路-CSDN博客](https://blog.csdn.net/qq_31865983/category_9216603_3.html)
 - [https://www.iteye.com/blog/user/rednaxelafx](https://www.iteye.com/blog/user/rednaxelafx)
@@ -57,9 +58,10 @@ tag:
 - [JVM常量池及字符串==比较分析 - JVM - 开发语言与工具 - 深度开源](https://www.open-open.com/lib/view/open1350818333649.html)
 - [标签: JVM | zachaxy](https://zachaxy.github.io/tags/JVM/)
 - [从表到里学习JVM实现](https://www.douban.com/doulist/2545443/)
-- [java main 源码分析流程，老鸟你会了吗？全网最详细_猫猫大神的博客-CSDN博客_java main方法执行流程](https://binggo.blog.csdn.net/article/details/123303740)
+- [java main 源码分析流程，老鸟你会了吗？](https://blog.csdn.net/qq_27608009/article/details/123303740)
 - [阿里面试官问我Java线程和操作系统线程什么关系-51CTO.COM](https://os.51cto.com/article/641015.html)
 - [Java线程和操作系统线程的关系 - 知乎](https://zhuanlan.zhihu.com/p/474022823)
+- [鸠摩的笔记](http://116.198.37.70/#)
 ### 框架资料
 - [Zipkin — 微服务链路跟踪. - JMCui - 博客园](https://www.cnblogs.com/jmcui/p/10940372.html)
 - [Introduction | Spring-Boot-Reference-Guide](http://doc.yonyoucloud.com/doc/Spring-Boot-Reference-Guide/index.html)
@@ -103,8 +105,9 @@ tag:
 ### 设计模式
 - [Home - Java Design Patterns](https://java-design-patterns.com/)
 - [常用设计模式有哪些？](https://refactoringguru.cn/design-patterns)
-### 在线工具
+### 工具
 - [Try Redis](https://try.redis.io/)
+- [Clion 2024.3.1激活工具教程](https://www.jianshu.com/p/11a05076d929)
 
 ## 国家教育资源
 ### 义务教育
