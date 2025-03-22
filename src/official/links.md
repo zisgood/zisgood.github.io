@@ -26,7 +26,8 @@ tag:
 - [王道计算机考研 操作系统](https://www.bilibili.com/video/BV1YE411D7nH/?spm_id_from=333.1387.favlist.content.click&vd_source=f18bec443cbf5c704e26577d5399183b)
 ### 计算机网络
 - [王道计算机考研 计算机网络](https://www.bilibili.com/video/BV19E411D78Q/?spm_id_from=333.1387.collection.video_card.click&vd_source=f18bec443cbf5c704e26577d5399183b)
-
+### C语言
+- [C 语言教程](https://www.runoob.com/cprogramming/c-tutorial.html)
 ## 技术
 ### 技术网站
 - [牛客网-找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网](https://www.nowcoder.com/)
