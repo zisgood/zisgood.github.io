@@ -52,6 +52,7 @@ tag:
 - [首页 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/)
 ### JVM
 - [跟我一起读OpenJDK源码](https://www.zhihu.com/column/c_1512375954660290560)
+- [JVM菜鸟进阶高手之路](https://www.cnblogs.com/jiangxinlingdu/tag/JVM/)
 - [JVM 1.3 JVM 启动流程_猫君之上的博客-CSDN博客](https://blog.csdn.net/qq_33713328/article/details/89978453)
 - [Hotspot和Linux内核_菜鸟进阶之路-CSDN博客](https://blog.csdn.net/qq_31865983/category_9216603_3.html)
 - [https://www.iteye.com/blog/user/rednaxelafx](https://www.iteye.com/blog/user/rednaxelafx)
