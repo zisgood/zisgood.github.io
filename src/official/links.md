@@ -54,6 +54,8 @@ tag:
 - [跟我一起读OpenJDK源码](https://www.zhihu.com/column/c_1512375954660290560)
 - [java main 源码分析流程，老鸟你会了吗？](https://blog.csdn.net/qq_27608009/article/details/123303740)
 - [JVM菜鸟进阶高手之路](https://www.cnblogs.com/jiangxinlingdu/tag/JVM/)
+- [章翔-JVM从入门到入门-B站](https://www.bilibili.com/video/BV1Rf4y1V7qn/?spm_id_from=333.1387.search.video_card.click&vd_source=f18bec443cbf5c704e26577d5399183b)
+- [章翔-JVM-知乎专栏](https://zhuanlan.zhihu.com/c_1384828279367450624)
 - [JVM 1.3 JVM 启动流程_猫君之上的博客-CSDN博客](https://blog.csdn.net/qq_33713328/article/details/89978453)
 - [Hotspot和Linux内核_菜鸟进阶之路-CSDN博客](https://blog.csdn.net/qq_31865983/category_9216603_3.html)
 - [RednaxelaFX-自己关于VM的帖的目录](https://www.iteye.com/blog/rednaxelafx-362738) 
